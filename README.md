@@ -5,5 +5,5 @@ dentro del ambiente de _Dealider_
 
 ## Herramientas disponibles
 
-**historial**: Obten el historial de un chat almacenado en _MongoDB_
-**limpiarHistorial**: Limpia el historial de un chat almacenado en _MongoDB_
+- **historial**: Obten el historial de un chat almacenado en _MongoDB_
+- **limpiarHistorial**: Limpia el historial de un chat almacenado en _MongoDB_
