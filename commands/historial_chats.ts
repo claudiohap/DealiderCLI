@@ -8,7 +8,7 @@ const comando_limpiar_historial = new Command();
 
 comando_historial
   .name("historial")
-  .description("obtienes el historial de un chat")
+  .description("Obtiene el historial de un chat")
   .argument("<idEmpresa>", "ID de la empresa")
   .argument("<idLead>", "ID del lead")
   .argument("<idVendedor>", "ID del vendedor")
