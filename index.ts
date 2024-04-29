@@ -7,11 +7,12 @@ import {
   comando_limpiar_historial,
 } from "./commands/historial_chats";
 import chalk from "chalk";
+import { comando_chats } from "./commands/chats";
 
 console.log(
   chalk.greenBright(
     figlet.textSync("Dealider CLI", {
-      font: "ANSI Shadow",
+      font: "Small Slant",
     })
   )
 );
@@ -22,5 +23,6 @@ program
 
 program.addCommand(comando_historial);
 program.addCommand(comando_limpiar_historial);
+program.addCommand(comando_chats);
 
 program.parseAsync();

@@ -45,6 +45,9 @@ const obtenerChat = async (
 
     if (historial && historial.length > 0) {
       const tabla = new CliTable3({
+        style: {
+          head: ["green"],
+        },
         head: ["De", "Mensaje", "Fecha"],
       });
       historial?.reverse().map((mensaje) => {
