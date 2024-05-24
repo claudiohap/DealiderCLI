@@ -8,6 +8,7 @@ import {
 } from "./commands/historial_chats";
 import chalk from "chalk";
 import { comando_chats } from "./commands/chats";
+import { comando_crear_subcuenta } from "./commands/subcuenta";
 
 console.log(
   chalk.greenBright(
@@ -24,5 +25,6 @@ program
 program.addCommand(comando_historial);
 program.addCommand(comando_limpiar_historial);
 program.addCommand(comando_chats);
+program.addCommand(comando_crear_subcuenta);
 
 program.parseAsync();
